@@ -3,6 +3,7 @@ body{
     background-image: url(Images/background.jpg);
     width: 1200px;
     margin: 16px  auto;
+    padding: 12px;
    
 }
 
@@ -13,6 +14,7 @@ h2{
 header{
 
     font-size: larger;
+    
 
 }
 .nav-link{
