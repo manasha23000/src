@@ -1,0 +1,62 @@
+body{
+
+    background-image: url(Images/background.jpg);
+    width: 1200px;
+    margin: 16px  auto;
+   
+}
+
+h2{
+    margin: 10px auto;
+}
+
+header{
+
+    font-size: larger;
+
+}
+.nav-link{
+   color: black;
+  
+}
+
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.nav-link:hover{
+    color: red;
+
+ }
+
+
+.btn{
+    background-color: pink;
+    border-color: black;
+    color: black;
+}
+
+.btn:hover{
+    background-color: red;
+    border-color: blue;
+}
+
+.img{
+    max-width: 100%; 
+      height: auto;
+}
+
+footer
+{
+    
+    padding-top: 12px;
+}
+
+
+    
+@media (max-width: 1200px) {
+    body {
+      width: 90%;
+    }
+  }
+   

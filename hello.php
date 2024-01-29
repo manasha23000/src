@@ -8,8 +8,15 @@
 </head>
 <body>
     
-
+<!-- This is HTML comment --> 
 <?php
+
+//This is one line comment inside php
+
+/*this is
+multiple line comments inside
+php*/
+
 echo "<h1>Hello world</h1>";
 ?>
 

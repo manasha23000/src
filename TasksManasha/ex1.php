@@ -1,3 +1,5 @@
+<!--
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1: Getting Started with PHP - Manasha</title>
 </head>
+
+--> 
+
+
+
+<?php $title = "Exercise 01";
+
+include 'header.php'; ?>
+
+
 <body>
+    <br>
+    
     <h3>3.1 Write PHP code to output the following message:
         Hello world! My name is "David"</h3>
 
@@ -58,11 +72,14 @@
             </tr>
         </table>
 
-        <h3>Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
+        <h3>3.4Take a screenshot that confirms your development environment setup and include it as an image in the "ex1.php" file.</h3>
 
         <img src="Images/Docker.JPG" alt="Web Development environment">
 
 
-
+<!--
 </body>
 </html>
+-->
+
+<?php include 'footer.php'; ?>
