@@ -1,6 +1,5 @@
 body{
 
-    background-image: url(Images/background.jpg);
     width: 1200px;
     margin: 16px  auto;
     padding: 12px;
@@ -11,10 +10,17 @@ h2{
     margin: 10px auto;
 }
 
+h3.logo{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
 header{
 
-    font-size: larger;
-    
+    font-size: large;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightpink;
 
 }
 .nav-link{
@@ -52,9 +58,15 @@ footer
 {
     
     padding-top: 12px;
+    text-align: center;
+    background-color: lightpink;
 }
 
+.docker {
 
+    width: 1160px;
+    height: auto;
+}
     
 @media (max-width: 1200px) {
     body {
