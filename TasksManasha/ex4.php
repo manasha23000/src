@@ -12,10 +12,27 @@ include 'header.php'; ?>
 
 <br>
 
+<form method="post" name="IFElSE_form" action=<?php echo htmlspecialchars ($_SERVER['PHP_SELF']); ?>>
+
+    <div class="mb-3">   
+        Name : <input type="text" name="name"  class="form-control" required> 
+    </div>
+    <div class="mb-3">   
+        Age : <input type="number" name="age"  class="form-control" required> 
+    </div>
+    <button type="submit" name= "Form3" class="btn btn-primary">Submit</button>
+
+</form>
 <?php
 
-$age = 20;
-$name = "Alan";
+$age= 0 ;
+
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+ 
+  
+$age = $_POST["age"];
+$name = $_POST["name"];}
 
 if ($age >= 18){
     echo $name . ", you are " . $age . " years old. You are eligible for voting.";
@@ -26,7 +43,6 @@ else {
 }
 
 ?>
-
 
 
 <h3><br>3.Switch Case: Write a PHP script that gets the current month and prints one of the following responses, 
@@ -60,7 +76,7 @@ switch ($currentmonth)
 <form method="post" name="ForLoop_form" action=<?php echo htmlspecialchars ($_SERVER['PHP_SELF']); ?>>
 
     <div class="mb-3">   
-        Number : <input type="number" name="limit1"  class="form-control" required> 
+        Enter any number : <input type="number" name="limit1"  class="form-control" required> 
     </div>
    
     <button type="submit" name= "Form1" class="btn btn-primary">Submit</button>
@@ -94,7 +110,7 @@ $limit1 = $_POST["limit1"];
 <form method="post" name="Loop_form" action=<?php echo htmlspecialchars ($_SERVER['PHP_SELF']); ?>>
 
     <div class="mb-3">   
-        Number : <input type="number" name="limit"  class="form-control" required> 
+    Enter any number : <input type="number" name="limit"  class="form-control" required> 
     </div>
    
     <button type="submit" name= "Form2" class="btn btn-primary">Submit</button>
