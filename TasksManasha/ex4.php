@@ -20,7 +20,7 @@ include 'header.php'; ?>
     <div class="mb-3">   
         Age : <input type="number" name="age"  class="form-control" required> 
     </div>
-    <button type="submit" name= "Form3" class="btn btn-primary">Submit</button>
+    <button type="submit" name= "Form3"  value="Form3" class="btn btn-primary">Submit</button>
 
 </form>
 <?php
@@ -29,10 +29,10 @@ $age= 0 ;
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
- 
-  
+    if (isset($_POST['Form3'])){
+
 $age = $_POST["age"];
-$name = $_POST["name"];}
+$name = $_POST["name"];
 
 if ($age >= 18){
     echo $name . ", you are " . $age . " years old. You are eligible for voting.";
@@ -40,6 +40,9 @@ if ($age >= 18){
 
 else {
     echo $name . ", you are " . $age . " years old. You are not eligible for voting.";
+}
+    }
+
 }
 
 ?>
@@ -79,7 +82,7 @@ switch ($currentmonth)
         Enter any number : <input type="number" name="limit1"  class="form-control" required> 
     </div>
    
-    <button type="submit" name= "Form1" class="btn btn-primary">Submit</button>
+    <button type="submit" name= "Form1" value="Form1" class="btn btn-primary">Submit</button>
 
 </form>
 <?php
@@ -88,7 +91,7 @@ $limit1 = 0 ;
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
- 
+    if (isset($_POST['Form1'])){
   
 $limit1 = $_POST["limit1"];
 
@@ -99,6 +102,7 @@ $limit1 = $_POST["limit1"];
   for ($i = 1; $i <= 10; $i++) {
     echo "<li>$limit1 x $i = " . ($limit1* $i) . "</li>" ;
 }
+  }
 
 ?>
 
@@ -113,7 +117,7 @@ $limit1 = $_POST["limit1"];
     Enter any number : <input type="number" name="limit"  class="form-control" required> 
     </div>
    
-    <button type="submit" name= "Form2" class="btn btn-primary">Submit</button>
+    <button type="submit" name= "Form2" value="Form2" class="btn btn-primary">Submit</button>
 
 </form>
 <?php
@@ -121,6 +125,8 @@ $limit1 = $_POST["limit1"];
 $limit = 0 ;
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    if (isset($_POST['Form2'])){
 
   
 $limit = $_POST["limit"];
@@ -134,6 +140,7 @@ while ($i <= $limit) {
     echo "<li>$i</li>";
     $i++;
 }
+  }
 
 ?>
 
