@@ -38,6 +38,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="ex4.php">Exercise 04</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="CRUD/index.php">Exercise 07</a>
+                  </li>
                   
                  
                 </ul>
