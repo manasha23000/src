@@ -1,7 +1,7 @@
 <?php
 
 $title = "Information";
-include 'header.php'; 
+require 'header.php'; 
 
 
 $limit = $_POST["limit"];
@@ -9,5 +9,5 @@ $limit = $_POST["limit"];
  echo "The numbers from 1 to" . $limit . " ;" ; 
 
 
-include 'footer.php';
+ require 'footer.php';
 ?>

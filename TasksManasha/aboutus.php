@@ -1,6 +1,6 @@
 <?php $title = "Ablout Us";
 
-include 'header.php'; ?>
+require 'header.php'; ?>
 
 <h2>About Us</h2>
 
@@ -38,4 +38,4 @@ window.alert ("This is an alert box")
 
 
 
-<?php include 'footer.php'; ?>
+<?php require 'footer.php'; ?>

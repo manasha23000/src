@@ -1,7 +1,7 @@
 
 <?php $title = "Exercise 07";
 
-include '../header.php'; ?>
+require '../header.php'; ?>
 
 <link rel="stylesheet" href="../styles.css">
 <body>
@@ -46,4 +46,4 @@ include '../header.php'; ?>
 
 
 
-<?php include '../footer.php'; ?>
+<?php require '../footer.php'; ?>

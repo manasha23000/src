@@ -1,7 +1,7 @@
 <?php
 
-include '../header.php';
-include 'db.php';
+require '../header.php';
+require 'db.php';
 
 
 $a = $_GET['id'];
@@ -84,5 +84,5 @@ if (isset($_POST['submit'])){
 $conn->close();
 
 
-include '../footer.php';
+require '../footer.php';
 ?>

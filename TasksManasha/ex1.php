@@ -14,7 +14,7 @@
 
 <?php $title = "Exercise 01";
 
-include 'header.php'; ?>
+require 'header.php'; ?>
 
 
 <body>
@@ -82,4 +82,4 @@ include 'header.php'; ?>
 </html>
 -->
 
-<?php include 'footer.php'; ?>
+<?php require 'footer.php'; ?>

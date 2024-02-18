@@ -1,6 +1,6 @@
 <?php $title = "Exercise 02";
 
-include 'header.php'; ?>
+require 'header.php'; ?>
 
 
 
@@ -22,4 +22,4 @@ include 'header.php'; ?>
         </div>
 
 
-<?php include 'footer.php'; ?>
+<?php require 'footer.php'; ?>

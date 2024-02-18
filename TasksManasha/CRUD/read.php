@@ -1,6 +1,6 @@
 <?php
-include '../header.php';
-include 'db.php';
+require '../header.php';
+require 'db.php';
 
 ?>
 
@@ -50,4 +50,4 @@ $conn->close();
 
 ?>
 
-<?php include '../footer.php'; ?>
+<?php require '../footer.php'; ?>

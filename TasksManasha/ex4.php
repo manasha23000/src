@@ -1,7 +1,7 @@
 
 <?php $title = "Exercise 04";
 
-include 'header.php'; ?>
+require 'header.php'; ?>
 
 
 <body>
@@ -157,5 +157,5 @@ foreach ($myarray as $value) {
 
 </body>
 
-<?php include 'footer.php'; ?>
+<?php require 'footer.php'; ?>
 

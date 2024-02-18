@@ -1,6 +1,6 @@
 <?php $title = "Exercise 03";
 
-include 'header.php'; ?>
+require 'header.php'; ?>
 
 
 <body>
@@ -98,5 +98,5 @@ Hint: Use predefined variables: $_SERVER</h3>
 
 </body>
 
-<?php include 'footer.php'; ?>
+<?php require 'footer.php'; ?>
 

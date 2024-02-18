@@ -1,7 +1,7 @@
 
 <?php
 $title = "Process";
-include '../header.php'; ?>
+require '../header.php'; ?>
 
 <?php
 
@@ -16,7 +16,7 @@ if(isset ($_POST['submit'])){
 
     //connect to the database server
 
-    include 'db.php';
+    require 'db.php';
 
     //write sql statment to insert data
     $sql = "insert into studentsinfo (fname,lname,city,groupId)
