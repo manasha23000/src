@@ -1,5 +1,10 @@
 
 <?php
+$title = "Process";
+include '../header.php'; ?>
+
+<?php
+
 
 //what to do with the data
 
@@ -27,3 +32,7 @@ if(isset ($_POST['submit'])){
     }
 
 }
+
+?>
+
+<?php include '../footer.php'; ?>
